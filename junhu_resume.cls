@@ -68,7 +68,7 @@ Last Updated on
 %		\fontspec{Helvetica Neue UltraLight}\fontsize{40pt}{10cm}\selectfont #1 
 %		\fontspec{Helvetica Neue Light}\selectfont #2
 %	} \\
-	\vspace{-33pt}
+	\vspace{-10pt}
 	{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #1}
 %	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 %	\vspace{-15pt}
@@ -83,8 +83,10 @@ Last Updated on
 	\vspace{-3pt}
 %	\centering{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #1}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\vspace{-23pt}
+	\vspace{-18pt}
 }
+
+\newcommand{\smallsep}[0]{\vspace{1pt}}
 
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
