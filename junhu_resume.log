@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.10.13)  4 NOV 2018 23:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.11)  11 NOV 2018 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,24 +265,33 @@ Package: isodate 2010/01/03 v2.30 Print dates with different formats (HH)
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2018basic/texmf-dist/tex/latex/substr/substr.sty
-Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count105
-)
+
+! Package isodate.sty Error: Package file substr.sty not found.
+
+See the isodate.sty package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30      Install substr.sty into your TeX tree.}}
+                                                  
+This version of isodate.sty needs the package substr.sty.
+You can download it from CTAN:/macros/latex/contrib/substr/
+e.g., one CTAN node is ftp.dante.de. Install substr.sty into your TeX tree.
+
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/isodate/english.idf
 File: english.idf 2010/01/03 v2.30 Language definitions for isodate package (HH
 )
 
 Define commands for English date format
 )
-\c@iso@tmpmonth=\count106
-\c@iso@yeartwo=\count107
-\c@iso@slash=\count108
-\c@iso@minus=\count109
-\c@iso@dot=\count110
-\c@iso@@slash=\count111
-\c@iso@@minus=\count112
-\c@iso@@dot=\count113
+\c@iso@tmpmonth=\count105
+\c@iso@yeartwo=\count106
+\c@iso@slash=\count107
+\c@iso@minus=\count108
+\c@iso@dot=\count109
+\c@iso@@slash=\count110
+\c@iso@@minus=\count111
+\c@iso@@dot=\count112
 ) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -290,18 +299,18 @@ Package: expl3 2018/03/05 L3 programming layer (loader)
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count114
-\l_tmpa_int=\count115
-\l_tmpb_int=\count116
-\g_tmpa_int=\count117
-\g_tmpb_int=\count118
-\g__intarray_font_int=\count119
-\g__prg_map_int=\count120
-\c_log_iow=\count121
-\l_iow_line_count_int=\count122
-\l__iow_line_target_int=\count123
-\l__iow_one_indent_int=\count124
-\l__iow_indent_int=\count125
+\c_max_int=\count113
+\l_tmpa_int=\count114
+\l_tmpb_int=\count115
+\g_tmpa_int=\count116
+\g_tmpb_int=\count117
+\g__intarray_font_int=\count118
+\g__prg_map_int=\count119
+\c_log_iow=\count120
+\l_iow_line_count_int=\count121
+\l__iow_line_target_int=\count122
+\l__iow_one_indent_int=\count123
+\l__iow_indent_int=\count124
 \c_zero_dim=\dimen129
 \c_max_dim=\dimen130
 \l_tmpa_dim=\dimen131
@@ -320,72 +329,72 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count126
-\c__fp_leading_shift_int=\count127
-\c__fp_middle_shift_int=\count128
-\c__fp_trailing_shift_int=\count129
-\c__fp_big_leading_shift_int=\count130
-\c__fp_big_middle_shift_int=\count131
-\c__fp_big_trailing_shift_int=\count132
-\c__fp_Bigg_leading_shift_int=\count133
-\c__fp_Bigg_middle_shift_int=\count134
-\c__fp_Bigg_trailing_shift_int=\count135
-\l__sort_length_int=\count136
-\l__sort_min_int=\count137
-\l__sort_top_int=\count138
-\l__sort_max_int=\count139
-\l__sort_true_max_int=\count140
-\l__sort_block_int=\count141
-\l__sort_begin_int=\count142
-\l__sort_end_int=\count143
-\l__sort_A_int=\count144
-\l__sort_B_int=\count145
-\l__sort_C_int=\count146
-\l__tl_build_start_index_int=\count147
-\l__tl_build_index_int=\count148
-\l__tl_analysis_normal_int=\count149
-\l__tl_analysis_index_int=\count150
-\l__tl_analysis_nesting_int=\count151
-\l__tl_analysis_type_int=\count152
-\l__regex_internal_a_int=\count153
-\l__regex_internal_b_int=\count154
-\l__regex_internal_c_int=\count155
-\l__regex_balance_int=\count156
-\l__regex_group_level_int=\count157
-\l__regex_mode_int=\count158
-\c__regex_cs_in_class_mode_int=\count159
-\c__regex_cs_mode_int=\count160
-\l__regex_catcodes_int=\count161
-\l__regex_default_catcodes_int=\count162
-\c__regex_catcode_L_int=\count163
-\c__regex_catcode_O_int=\count164
-\c__regex_catcode_A_int=\count165
-\c__regex_all_catcodes_int=\count166
-\l__regex_show_lines_int=\count167
-\l__regex_min_state_int=\count168
-\l__regex_max_state_int=\count169
-\l__regex_left_state_int=\count170
-\l__regex_right_state_int=\count171
-\l__regex_capturing_group_int=\count172
-\l__regex_min_pos_int=\count173
-\l__regex_max_pos_int=\count174
-\l__regex_curr_pos_int=\count175
-\l__regex_start_pos_int=\count176
-\l__regex_success_pos_int=\count177
-\l__regex_curr_char_int=\count178
-\l__regex_curr_catcode_int=\count179
-\l__regex_last_char_int=\count180
-\l__regex_case_changed_char_int=\count181
-\l__regex_curr_state_int=\count182
-\l__regex_step_int=\count183
-\l__regex_min_active_int=\count184
-\l__regex_max_active_int=\count185
-\l__regex_replacement_csnames_int=\count186
-\l__regex_match_count_int=\count187
-\l__regex_min_submatch_int=\count188
-\l__regex_submatch_int=\count189
-\l__regex_zeroth_submatch_int=\count190
-\g__regex_trace_regex_int=\count191
+\l_keys_choice_int=\count125
+\c__fp_leading_shift_int=\count126
+\c__fp_middle_shift_int=\count127
+\c__fp_trailing_shift_int=\count128
+\c__fp_big_leading_shift_int=\count129
+\c__fp_big_middle_shift_int=\count130
+\c__fp_big_trailing_shift_int=\count131
+\c__fp_Bigg_leading_shift_int=\count132
+\c__fp_Bigg_middle_shift_int=\count133
+\c__fp_Bigg_trailing_shift_int=\count134
+\l__sort_length_int=\count135
+\l__sort_min_int=\count136
+\l__sort_top_int=\count137
+\l__sort_max_int=\count138
+\l__sort_true_max_int=\count139
+\l__sort_block_int=\count140
+\l__sort_begin_int=\count141
+\l__sort_end_int=\count142
+\l__sort_A_int=\count143
+\l__sort_B_int=\count144
+\l__sort_C_int=\count145
+\l__tl_build_start_index_int=\count146
+\l__tl_build_index_int=\count147
+\l__tl_analysis_normal_int=\count148
+\l__tl_analysis_index_int=\count149
+\l__tl_analysis_nesting_int=\count150
+\l__tl_analysis_type_int=\count151
+\l__regex_internal_a_int=\count152
+\l__regex_internal_b_int=\count153
+\l__regex_internal_c_int=\count154
+\l__regex_balance_int=\count155
+\l__regex_group_level_int=\count156
+\l__regex_mode_int=\count157
+\c__regex_cs_in_class_mode_int=\count158
+\c__regex_cs_mode_int=\count159
+\l__regex_catcodes_int=\count160
+\l__regex_default_catcodes_int=\count161
+\c__regex_catcode_L_int=\count162
+\c__regex_catcode_O_int=\count163
+\c__regex_catcode_A_int=\count164
+\c__regex_all_catcodes_int=\count165
+\l__regex_show_lines_int=\count166
+\l__regex_min_state_int=\count167
+\l__regex_max_state_int=\count168
+\l__regex_left_state_int=\count169
+\l__regex_right_state_int=\count170
+\l__regex_capturing_group_int=\count171
+\l__regex_min_pos_int=\count172
+\l__regex_max_pos_int=\count173
+\l__regex_curr_pos_int=\count174
+\l__regex_start_pos_int=\count175
+\l__regex_success_pos_int=\count176
+\l__regex_curr_char_int=\count177
+\l__regex_curr_catcode_int=\count178
+\l__regex_last_char_int=\count179
+\l__regex_case_changed_char_int=\count180
+\l__regex_curr_state_int=\count181
+\l__regex_step_int=\count182
+\l__regex_min_active_int=\count183
+\l__regex_max_active_int=\count184
+\l__regex_replacement_csnames_int=\count185
+\l__regex_match_count_int=\count186
+\l__regex_min_submatch_int=\count187
+\l__regex_submatch_int=\count188
+\l__regex_zeroth_submatch_int=\count189
+\g__regex_trace_regex_int=\count190
 \c_empty_box=\box30
 \l_tmpa_box=\box31
 \l_tmpb_box=\box32
@@ -429,28 +438,28 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 )
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count192
+\g__driver_image_int=\count191
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count193
-\g__xparse_grabber_int=\count194
-\l__xparse_m_args_int=\count195
-\l__xparse_mandatory_args_int=\count196
-\l__xparse_v_nesting_int=\count197
+\l__xparse_current_arg_int=\count192
+\g__xparse_grabber_int=\count193
+\l__xparse_m_args_int=\count194
+\l__xparse_mandatory_args_int=\count195
+\l__xparse_v_nesting_int=\count196
 )
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count198
-\l__fontspec_language_int=\count199
-\l__fontspec_strnum_int=\count266
-\l__fontspec_tmp_int=\count267
-\l__fontspec_em_int=\count268
-\l__fontspec_emdef_int=\count269
-\l__fontspec_strong_int=\count270
-\l__fontspec_strongdef_int=\count271
+\l__fontspec_script_int=\count197
+\l__fontspec_language_int=\count198
+\l__fontspec_strnum_int=\count199
+\l__fontspec_tmp_int=\count266
+\l__fontspec_em_int=\count267
+\l__fontspec_emdef_int=\count268
+\l__fontspec_strong_int=\count269
+\l__fontspec_strongdef_int=\count270
 \l__fontspec_tmpa_dim=\dimen160
 \l__fontspec_tmpb_dim=\dimen161
 \l__fontspec_tmpc_dim=\dimen162
@@ -737,7 +746,7 @@ other characters in Unicode lower plane
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 )
-\tipaTiiicode=\count272
+\tipaTiiicode=\count271
 \tipasavetokens=\toks20
 \tipachecktokens=\toks21
 )
@@ -768,27 +777,27 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box51
 \l__siunitx_tmp_dim=\dimen169
-\l__siunitx_tmp_int=\count273
-\l__siunitx_number_mantissa_length_int=\count274
-\l__siunitx_number_uncert_length_int=\count275
-\l__siunitx_round_int=\count276
-\l__siunitx_process_decimal_int=\count277
-\l__siunitx_process_uncertainty_int=\count278
-\l__siunitx_process_fixed_int=\count279
-\l__siunitx_process_integer_min_int=\count280
-\l__siunitx_process_precision_int=\count281
-\l__siunitx_group_min_int=\count282
+\l__siunitx_tmp_int=\count272
+\l__siunitx_number_mantissa_length_int=\count273
+\l__siunitx_number_uncert_length_int=\count274
+\l__siunitx_round_int=\count275
+\l__siunitx_process_decimal_int=\count276
+\l__siunitx_process_uncertainty_int=\count277
+\l__siunitx_process_fixed_int=\count278
+\l__siunitx_process_integer_min_int=\count279
+\l__siunitx_process_precision_int=\count280
+\l__siunitx_group_min_int=\count281
 \l__siunitx_angle_marker_box=\box52
 \l__siunitx_angle_unit_box=\box53
 \l__siunitx_angle_marker_dim=\dimen170
 \l__siunitx_angle_unit_dim=\dimen171
-\l__siunitx_unit_int=\count283
-\l__siunitx_unit_denominator_int=\count284
-\l__siunitx_unit_numerator_int=\count285
-\l__siunitx_unit_prefix_int=\count286
-\l__siunitx_unit_prefix_base_int=\count287
-\l__siunitx_unit_prefix_gram_int=\count288
-\l__siunitx_number_product_int=\count289
+\l__siunitx_unit_int=\count282
+\l__siunitx_unit_denominator_int=\count283
+\l__siunitx_unit_numerator_int=\count284
+\l__siunitx_unit_prefix_int=\count285
+\l__siunitx_unit_prefix_base_int=\count286
+\l__siunitx_unit_prefix_gram_int=\count287
+\l__siunitx_number_product_int=\count288
 \c__siunitx_one_fill_skip=\skip54
 \l__siunitx_table_unit_align_skip=\skip55
 \l__siunitx_table_exponent_dim=\dimen172
@@ -935,7 +944,7 @@ Package: cite 2015/02/27  v 5.5
 . 
 . Font "Helvetica Light" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_HelveticaLight_int=\count290
+\g__fontspec_family_HelveticaLight_int=\count289
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -969,7 +978,7 @@ LaTeX Info: Redefining \rmfamily on input line 34.
 . 
 . Helvetica Neue UltraLight scale = 1.007693349906042.
 .................................................
-\g__fontspec_family_HelveticaNeueUltraLight_int=\count291
+\g__fontspec_family_HelveticaNeueUltraLight_int=\count290
 .................................................
 . fontspec info: "set-scale"
 . 
@@ -1100,7 +1109,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 y
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count292
+\c@section@level=\count291
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
@@ -1204,7 +1213,7 @@ LaTeX Font Info:    Font shape `TU/HelveticaNeueUltraLight(0)/m/n' will be
 . Font "Helvetica Neue Light" does not contain any OpenType `Script'
 . information.
 .................................................
-\g__fontspec_family_HelveticaNeueLight_int=\count293
+\g__fontspec_family_HelveticaNeueLight_int=\count292
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1264,7 +1273,7 @@ LaTeX Font Info:    Font shape `TU/HelveticaNeueUltraLight(0)/m/n' will be
 . 
 . Font "Heiti TC Medium" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_HeitiTCMedium_int=\count294
+\g__fontspec_family_HeitiTCMedium_int=\count293
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1336,7 +1345,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 . 
 . Font "Helvetica" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_Helvetica_int=\count295
+\g__fontspec_family_Helvetica_int=\count294
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1360,7 +1369,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 . 
 . Font "Heiti SC Medium" does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_HeitiSCMedium_int=\count296
+\g__fontspec_family_HeitiSCMedium_int=\count295
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1821,10 +1830,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 25887 strings out of 494476
- 500454 string characters out of 6165661
- 580086 words of memory out of 5000000
- 29528 multiletter control sequences out of 15000+600000
+ 25854 strings out of 494476
+ 499796 string characters out of 6165661
+ 579600 words of memory out of 5000000
+ 29498 multiletter control sequences out of 15000+600000
  533052 words of font info for 103 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  53i,11n,118p,10437b,947s stack positions out of 5000i,500n,10000p,200000b,80000s
