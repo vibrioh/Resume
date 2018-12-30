@@ -1,10 +1,11 @@
 \documentclass[]{junhu_resume}
 \usepackage{fancyhdr}
+\usepackage{nopageno}
  
-\pagestyle{fancy}
+%\pagestyle{fancy}
 \fancyhf{}
  
-\rfoot{Page \thepage \hspace{1pt}}
+%\rfoot{Page \thepage \hspace{1pt}}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -19,11 +20,11 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{minipage}[t]{0.28\textwidth} 
+\begin{minipage}[t]{0.3\textwidth} 
 \namesection{Jun}{Hu}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.68\textwidth} 
+\begin{minipage}[t]{0.66\textwidth} 
 \infosection{ \urlstyle{same}
 \href{http://www.hu-jun.com}{hu-jun.com} | jun.hu@columbia.edu | (646) 271-1419
 }
@@ -37,7 +38,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.28\textwidth} 
+\begin{minipage}[t]{0.3\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -47,33 +48,21 @@
 
 \subsection{Columbia University}
 \descript{M.S. in Computer Science}
-\location{Jan 2017 - May 2018}
-\location{New York, NY}
+\locationnew{Jan 2017 - May 2018}\\
+\locationnew{New York, NY}
 \sectionsep
 
 \subsection{Tsinghua University}
-\descript{Ph.D. in Biomedicine}
-\location{Sep 2006 - Jan 2012}
-\location{Beijing, China}
+\descript{Ph.D. in Biology}
+\locationnew{Sep 2006 - Jan 2012}\\
+\locationnew{Beijing, China}
 \sectionsep
 
 \subsection{Wuhan University}
-\descript{B.S. in Biomedicine}
-\location{Sep 2002 - Jul 2006}
-\location{Wuhan, China}
+\descript{B.S. in Biology}
+\locationnew{Sep 2002 - Jul 2006}\\
+\locationnew{Wuhan, China}
 \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     STATUS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Status} 
-%Permanent Resident via EB-1A (Alien of Extraordinary Ability) in 2015.\\
-Permanent Resident\\
-Relocating Acceptable
-\sectionsep
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,13 +113,13 @@ Full list: \href{https://scholar.google.com/citations?user=Vr8dYJsAAAAJ}{bit.ly/
 \section{Skills}
 %\subsection{Programming}
 \location{
-Java \textbullet{} Python \textbullet{} Shell  \textbullet{} R
+Java \textbullet{} Python 
 }
 %\sectionsep
-\location{Docker \textbullet{} Elasticsearch \textbullet{} Kafka}
+\location{Linux  \textbullet{} Docker}
 %\sectionsep
 %\subsection{Database:}
-\location{Graph Database \textbullet{} SQL \textbullet{} Hive
+\location{Graph DB  \textbullet{} Elasticsearch
 %\location{PostgreSQL \textbullet{} SQLAlchemy\\
 %Spark SQL \textbullet{}  HBase \textbullet{} Hive\\
 %DynamoDB
@@ -138,7 +127,7 @@ Java \textbullet{} Python \textbullet{} Shell  \textbullet{} R
 %\sectionsep
 %\subsection{Web Develop}
 \location{
-HTML \textbullet{} CSS \textbullet{} Sass \textbullet{} Javascript
+HTML/Sass \textbullet{} JavaScript
 %Node.js \textbullet{} Express \textbullet{} Serverless 
 }
 %\sectionsep
@@ -163,10 +152,20 @@ Git  \textbullet{} \LaTeX}
 \section{Links} 
 Portfolio: \href{http://www.hu-jun.com}{hu-jun.com}\\
 Linkedin: \href{https://www.linkedin.com/in/jun-hu-664639a2/}{/hu-jun} \\
-Scholar: \href{https://scholar.google.com/citations?user=Vr8dYJsAAAAJ&hl=en}{bit.ly/2xVZYic}\\
+%Scholar: \href{https://scholar.google.com/citations?user=Vr8dYJsAAAAJ&hl=en}{bit.ly/2xVZYic}\\
 Github: \href{https://github.com/vibrioh}{/vibrioh}\\
-Facebook: \href{https://www.facebook.com/hjun1}{/hjun1}\\
-Twitter: \href{https://twitter.com/vibrioh1}{/vibrioh1}\\
+%Facebook: \href{https://www.facebook.com/hjun1}{/hjun1}\\
+%Twitter: \href{https://twitter.com/vibrioh1}{/vibrioh1}\\
+%\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     STATUS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Status} 
+Permanent Resident via EB-1A (Alien of Extraordinary Ability)
+%Relocating Acceptable
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -177,30 +176,31 @@ Twitter: \href{https://twitter.com/vibrioh1}{/vibrioh1}\\
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.68\textwidth} 
+\begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Work Experience}
-\runsubsection{Graphen, Inc} \hspace*{0pt}\hfill  \location{New York, NY}
-\descript{Principal Research Scientist, Big Data \hspace*{0pt}\hfill \location{Sep 2018 –– Current}}
-\descript{Research Scientist \hspace*{0pt}\hfill \location{Jan 2018 – Sep 2018}}
-\location{Delivered 1 FinTech project (\SI{10}[\$]{M}) as a DevOps engineer on-site.}
-\location{Delivering 1 Cybersecurity project (\SI{0.8}[\$]{M}) as a data scientist.}
-\location{Delivered 1 HealthCare project (non-profit with Harvard).}
-\location{Implemented Client Module of the Graph Database.}
-\location{Implemented Integration and Automation of Ardi Platform.}
-\location{Accomplished Business Logic and Educated Customers.}
+\runsubsection{Graphen, Inc} \hspace*{0pt}\hfill  \locationnew{New York, NY}\\ 
+\descript{Principal Research Scientist, Big Data \hspace*{0pt}\hfill \locationnew{Sep 2018 –– Current}}
+\descript{Research Scientist \hspace*{0pt}\hfill \locationnew{Jan 2018 – Sep 2018}}
+\location{Contributed to the IBM-ICBC FinTech project (\SI{10}[\$]{M}).}
+\location{Participated in the BOC, NY Cybersecurity project (\SI{0.8}[\$]{M}).}
+\location{Collaborated  with Harvard on a cancer classification project(non-profit).}
+\location{Developed Client Module \& Maintained REST layer of our graph database.}
+%\location{Implemented Client Module of the Graph Database.}
+%\location{Implemented Integration and Automation of Ardi Platform.}
+%\location{Accomplished Business Logic and Educated Customers.}
 \smallsep
 \sectionsep
 
-\runsubsection{Icahn School of Medicine at Mount Sinai} \hspace*{0pt}\hfill  \location{New York, NY}
-%Icahn School of Medicine at Mount Sinai
-\descript{Postdoctoral Fellow \hspace*{0pt}\hfill \location{Apr 2012 - Dec 2016}}
-\location{Automated Optical-Mapping Data Transformation.}
-\location{Developed Pipeline of Large-Scale Sequencing Analysis.}
+\runsubsection{Icahn School of Medicine at Mount Sinai} \hspace*{0pt}\hfill  \locationnew{New York, NY}\\  
+\descript{Postdoctoral Fellow \hspace*{0pt}\hfill \locationnew{Apr 2012 - Dec 2016}}
+\location{Oversaw research progress of the laboratory graduate students.}
+\location{lead 8 projects and published 19 research articles.}
+\location{Established a pipeline of large scale sequencing analysis in the laboratory.}
 \sectionsep
 
 %\runsubsection{Tsinghua University}
@@ -222,59 +222,85 @@ Twitter: \href{https://twitter.com/vibrioh1}{/vibrioh1}\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\location{Learn More: \href{http://hu-jun.com/projects.html}{hu-jun.com/projects.html}}
-\sectionsep
+%\location{Learn More: \href{http://hu-jun.com/projects.html}{hu-jun.com/projects.html}}
+%\sectionsep
 \runsubsection{ICBC Non-Performing Loans Prediction}\\
-\descript{Industrial and Commercial Bank of China (ICBC), the largest bank in the world, requests IBM an AI solution (\SI{10}[\$]{M})
-	to predict non-performing loans, simulate loan default cascades by user modifying relations/properties, 
-	find hidden relationships and display dynamic network evaluation.
-	Graphen, inc provides high-performance distributed graph database
-	solutions (\SI{2}[\$]{M}).}
-    \descript{$\Longrightarrow$ I am in charge of the system integration (Shell/Python scripts), the REST/Client and
-	Dynamic Graph backend (Java/Spring). The containers of Grest/Gasync (Flask/uWSGI/Nginx/Ubuntu, Docker) 
-	are deployed with clustered Kafka and running on openSUSE servers. Upstream ETL processes data from ICBC Data Warehouse
-	daily, triggering High Availability Module, which is monitoring server
-	health status, switching between available servers and executing requests. 
-	After loading through Async/Kafka, the predefined analytics scripts (business logic) compute all the features
-	needed for UI and ML module, such as guarantee cycles, closeness, betweenness, page rank and so on. 
-	The results are both stored locally in the graph database and ported to Oracle Database.}
+IBM GBS provided an AI solution to ICBC (\SI{10}[\$]{M}). \\
+Graphen provided graph analytics solution to IBM (\SI{2}[\$]{M}).\\
+\descript{Learn More: \href{http://hu-jun.com/prj/icbc.html}{http://hu-jun.com/prj/icbc.html}}
+\location{Dockerized graph database system and applications into containers.}
+\location{Integrated Kafka/Elasticsearch/Asynchronous/REST/Graph/HAProxy.}
+\location{Deployed the distributed graph system on production environment.}
+\location{Designed data schema and  formulated loading procedure.}
+\location{Transformed business requirements into analytical scripts.}
+\location{Conceptualized the dataset to a fake data generator for off-site.}
+\location{Automated daily ingestion and computation workflow in Shell/Cron.}
+\location{Consolidated high availability by tuning HAproxy/NGINX/uWSGI.}
+\location{Strengthened the robustness by implement of main/backup auto switch.}
+\location{Customized RESTful API iteratively for specific business logic.}
+\location{Co-authored dynamic graph UI backend  under IBM Spring Framework.}
+\location{Implemented .doc/.xls report generating module with FreeMarker.}
+\location{Facilitated user experience by implemented the Client module in Python.}
+\location{Trained users in ICBC for graph database knowledge and operations.}
+
+
+
+%\descript{Industrial and Commercial Bank of China (ICBC), the largest bank in the world, requests IBM an AI solution (\SI{10}[\$]{M})
+%	to predict non-performing loans, simulate loan default cascades by user modifying relations/properties, 
+%	find hidden relationships and display dynamic network evaluation.
+%	Graphen, inc provides high-performance distributed graph database
+%	solutions (\SI{2}[\$]{M}).}
+%    \descript{$\Longrightarrow$ I am in charge of the system integration (Shell/Python scripts), the REST/Client and
+%	Dynamic Graph backend (Java/Spring). The containers of Grest/Gasync (Flask/uWSGI/Nginx/Ubuntu, Docker) 
+%	are deployed with clustered Kafka and running on openSUSE servers. Upstream ETL processes data from ICBC Data Warehouse
+%	daily, triggering High Availability Module, which is monitoring server
+%	health status, switching between available servers and executing requests. 
+%	After loading through Async/Kafka, the predefined analytics scripts (business logic) compute all the features
+%	needed for UI and ML module, such as guarantee cycles, closeness, betweenness, page rank and so on. 
+%	The results are both stored locally in the graph database and ported to Oracle Database.}
 \sectionsep
 
-\runsubsection{BOC Adaptive Cybersecurity Monitoring}\\
-\location{Bank of China New York Branch Smart-i (\SI{0.8}[\$]{M}). The system shall gather all relevant and available information about users,
-	devices, applications, and network events, detect anomalies at various
-	levels, and provide an aggregate risk assessment to predict cybersecurity risks. }
-\location{$\Longrightarrow$ I am in charge of feature selection and graph database.}
+\runsubsection{BOC NY Adaptive Cybersecurity Monitoring}\\
+Graphen provided a Cybersecurity AI solution to Bank of China New York branch, based on network behavior (\SI{0.8}[\$]{M}).\\
+\descript{Learn More: \href{http://hu-jun.com/prj/boc.html}{http://hu-jun.com/prj/boc.html}}
+\location{Determined features selection for the advanced persistent threat.}
+\location{Deployed standalone graph database system.}
+\location{Created data schema, loading and graph feature scripts for ML models.}
+\location{Co-authored display UI backend in Python, with Flask, Elasticsearch, Redis.}
+\location{Drafted SIT/UAT test scripts and documentation.}
 \sectionsep
 
-\runsubsection{Cancer Classification}
-\location{N-Grams in Amino Acids Sequence.}
-\runsubsection{Real Estate Management}
-\location{PostgreSQL, FLASK and Bootstrap.}
-
-\runsubsection{Natural Language Processing}
-\location{POS, PCFG and HMM.}
-
-\runsubsection{Wind Prediction}
-\location{TensorFlow, GPU, LSTM and RNN.}
-
-\runsubsection{Query Expansion}
-\location{Google Search API and Rocchio Algorithm.}
-\runsubsection{Iterative Set Expansion}
-\location{Google Cloud and NLPcore.}
-
-\runsubsection{Movie Search Engine}
-\location{Elasticsearch and Full-text Search.}
-
-
-\runsubsection{Arrhythmia Visualization}
-\location{R, OriginLab and Mathematics.}
-
-\runsubsection{Large-Scale Sequencing}
-\location{Super Computer and Bioinformatics.}
-
-\runsubsection{3D Graphics and Animation}
-\location{Java, OpenGL and LWJGL.}
+\runsubsection{B-cell Receptor Based Cancer Classification}\\
+A non-profit research project with Harvard X. Shirley Liu Lab. Totally 4241 patient samples were investigated.\\
+\descript{Learn More: \href{http://hu-jun.com/prj/cancer.html}{http://hu-jun.com/prj/cancer.html}}
+\location{Performed NLP N-gram model in amino acid sequences.}
+\location{Explored Neural networks model with GPU acceleration with CUDA.}
+%\runsubsection{Real Estate Management}
+%\location{PostgreSQL, FLASK and Bootstrap.}
+%
+%\runsubsection{Natural Language Processing}
+%\location{POS, PCFG and HMM.}
+%
+%\runsubsection{Wind Prediction}
+%\location{TensorFlow, GPU, LSTM and RNN.}
+%
+%\runsubsection{Query Expansion}
+%\location{Google Search API and Rocchio Algorithm.}
+%\runsubsection{Iterative Set Expansion}
+%\location{Google Cloud and NLPcore.}
+%
+%\runsubsection{Movie Search Engine}
+%\location{Elasticsearch and Full-text Search.}
+%
+%
+%\runsubsection{Arrhythmia Visualization}
+%\location{R, OriginLab and Mathematics.}
+%
+%\runsubsection{Large-Scale Sequencing}
+%\location{Super Computer and Bioinformatics.}
+%
+%\runsubsection{3D Graphics and Animation}
+%\location{Java, OpenGL and LWJGL.}
 
 %\runsubsection{Real Estate Management}
 %\descript{Repository \href{http://bit.ly/2jh9Al9}{http://bit.ly/2jh9Al9}}

@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=0.7cm]{geometry}
+\usepackage[hmargin=1.25cm, vmargin=1.25cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
@@ -52,24 +52,26 @@ Last Updated on
 
 % Name command
 \newcommand{\namesection}[2]{
+	\vspace{1pt}
 	{
 		\sffamily
 		\fontspec{Helvetica Neue UltraLight}\fontsize{48pt}{8cm}\selectfont #1 
 		\fontspec{Helvetica Neue Light}\selectfont #2
 	} %\\
-%	\vspace{5pt}
+	\vspace{10pt}
 %	\centering{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #3}
 %	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 %	\vspace{-15pt}
 }
 
 \newcommand{\infosection}[1]{
+	\vspace{26pt}
 %	\centering{
 %		\sffamily
 %		\fontspec{Helvetica Neue UltraLight}\fontsize{40pt}{10cm}\selectfont #1 
 %		\fontspec{Helvetica Neue Light}\selectfont #2
 %	} \\
-	\vspace{-10pt}
+%	\vspace{-10pt}
 	{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #1}
 %	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 %	\vspace{-15pt}
@@ -81,10 +83,10 @@ Last Updated on
 %		\fontspec{Helvetica Neue UltraLight}\fontsize{40pt}{10cm}\selectfont #1 
 %		\fontspec{Helvetica Neue Light}\selectfont #2
 %	} \\
-	\vspace{-3pt}
+	\vspace{3pt}
 %	\centering{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #1}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\vspace{-18pt}
+	\vspace{-16pt}
 }
 
 \newcommand{\smallsep}[0]{\vspace{1pt}}
@@ -109,8 +111,14 @@ Last Updated on
 % Location command
 \newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
+% Locationnew command
+\newcommand{\locationnew}[1]{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{9pt}{10pt}\selectfont {#1} \normalfont}
+
 % Section seperators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
+
+% Littleection seperators command
+\newcommand{\littlesectionsep}[0]{\vspace{2pt}}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
