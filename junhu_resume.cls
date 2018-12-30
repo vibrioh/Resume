@@ -85,7 +85,7 @@ Last Updated on
 %	} \\
 	\vspace{3pt}
 %	\centering{ \color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont #1}
-	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{0.8pt}}
 	\vspace{-16pt}
 }
 
